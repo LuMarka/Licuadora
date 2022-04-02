@@ -8,8 +8,8 @@ function controlarLicuadora() {
         estadoLicuadora = "encendida";
         hacerBrrBrr();
         licuadora.classList.add("active");
-        /*console.log("me prendiste");
-    */    } else {
+        /*console.log("me prendiste");*/
+      } else {
         estadoLicuadora = "apagada"
         hacerBrrBrr();
         licuadora.classList.remove("active");
